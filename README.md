@@ -5,12 +5,12 @@ https://knowledge.exlibrisgroup.com/Alma/Training/Extended_Training/Presentation
 
 ## hathitrust.sh
 
-extract tar.gz files to get xmls. Created by Mike Rogers from UTK.
+extract tar.gz files to get xmls. Created by Mike Rogers from UTK, modified by Eduardo Prieto.
 
-##alma_to_hathi.pl
+## alma_to_hathi.pl
 
 parses the xmls and creates tsv files that we send to hathitrust. Created by Margaret Briand Wolfe from BC, modified by Mike Rogers from UTK, further modified by Eduardo Prieto to fit UM needs.
 
-##summary.sh
+## summary.sh
 
 creates a statistics txt file with total records processed. Created by Eduardo Prieto.
