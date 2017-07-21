@@ -24,7 +24,7 @@ use Data::Dumper;
 ($my_day, $my_mon, $my_year) = (localtime) [3,4,5];
 $my_year += 1900;
 $my_mon += 1;
-$my_date = sprintf("%s-%02d%02d", $my_year, $my_mon, $my_day);
+$my_date = sprintf("%s%02d%02d", $my_year, $my_mon, $my_day);
 
 
 #Directories for monos and serials
@@ -284,7 +284,7 @@ for ($d = 0; $d <= $#dir_list; $d++){
 						if (!$no_items){
 							$itm_cond[0] = 'CH';
 							$itm_desc[0] = "";
-								$no_items++;
+							$no_items++;
 						}
 
 						#Print a record for each item
